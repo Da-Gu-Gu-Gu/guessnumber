@@ -1,4 +1,4 @@
-import { View, Text,StyleSheet } from 'react-native'
+import { View, Text,StyleSheet,Platform } from 'react-native'
 
 
 
@@ -22,6 +22,7 @@ const styles=StyleSheet.create({
         borderWidth:2,
         borderColor:'white',
         padding:12,
-        
+        maxWidth:'80%',
+        width:300
     }
 })
